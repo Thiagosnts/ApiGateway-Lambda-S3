@@ -1,0 +1,11 @@
+{
+  "name": "lambda",
+  "version": "1.0.0",
+  "description": "sample tutorial",
+  "main": "index.js",
+  "dependencies": {
+    "parse-multipart": "*"
+  },
+  "author": "Cristian Salazar  (https://plus.google.com/+ChristianSalazar)",
+  "license": "ISC"
+}
