@@ -1,11 +1,15 @@
 {
   "name": "lambda",
   "version": "1.0.0",
-  "description": "sample tutorial",
+  "description": "ApiGateway+Lambda+S3",
   "main": "index.js",
   "dependencies": {
-    "parse-multipart": "*"
+    "multiparse": "^0.2.7",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+
   },
-  "author": "Cristian Salazar  (https://plus.google.com/+ChristianSalazar)",
+  "author": "Thiago dos Santos",
   "license": "ISC"
 }
+

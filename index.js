@@ -52,7 +52,8 @@ exports.handler = function(event,context,callback){
         delete object.arquivos['content'];
         
         
-        
+         callback(null,{status: 'ok', code: 200, messages: ['Texto e Arquivo Enviado.']});
+
         
 
         // // adiciono a url do arquivo
@@ -63,5 +64,5 @@ exports.handler = function(event,context,callback){
 
 
  
- callback(null,{status: 'ok', code: 200, messages: ['Chamado aberto com sucesso.']});
+ callback(null,{status: 'ok', code: 200, messages: ['Texto Enviado.']});
 }
